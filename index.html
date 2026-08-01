@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>مدی جانم 💖 | ۴۷ ماه با عشق</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══════════ AUDIO ═══════════ -->
+<audio id="bg-music" loop preload="auto">
+  <source src="./I'm%20Yours.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ═══════════ FLOATING MUSIC PLAYER ═══════════ -->
+<div id="music-player" class="music-player" aria-label="پخش کننده موسیقی">
+  <div class="music-player__info">
+    <div class="music-player__cover">🎵</div>
+    <div>
+      <div class="music-player__title">I'm Yours</div>
+      <div class="music-player__artist">آهنگ عاشقانه</div>
+    </div>
+  </div>
+  <div class="music-player__controls">
+    <button id="music-btn" title="پخش / توقف موسیقی" aria-label="Toggle music">
+      <span id="music-icon">⏸️</span>
+    </button>
+  </div>
+</div>
+
+<!-- ═══════════ BG PARTICLES ═══════════ -->
+<div class="bg-particles" id="bgParticles"></div>
+
+<!-- ══════════════════════════════════════════════════
+     SECTION 1 — HERO
+     ══════════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-content">
+    <span class="hero-badge">💖 ۴۷ ماه عشق 💖</span>
+    <span class="hero-emoji">💝</span>
+    <h1 class="hero-title">مدی جانم، ۳ روز دیر کردم…</h1>
+    <p class="hero-subtitle">
+      ولی عشقم به تو <strong>هیچ‌وقت دیر نمیشه!</strong><br>
+      ۴۷ ماه پیش بهترین اتفاق زندگیم شروع شد<br>
+      و هر ثانیه‌اش برام بی‌نهایت ارزشمنده 🌹
+    </p>
+    <a href="#timer">
+      <button class="hero-cta">
+        ببین چقدر دوستت دارم 👇
+      </button>
+    </a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SECTION 2 — TIMER
+     ══════════════════════════════════════════════════ -->
+<section id="timer">
+  <div class="section-inner">
+    <div class="reveal">
+      <h2 class="section-title">⏱️ ما الان چند وقته که با همیم؟</h2>
+      <p class="section-subtitle">از 8 شهریور 1401 تا الان، هر ثانیه رو باهات شمردم…</p>
+      <div class="divider"></div>
+    </div>
+    <div class="glass-card reveal">
+      <div class="timer-grid" id="timerGrid" aria-live="polite">
+        <div class="timer-box timer-box-single">
+          <span class="timer-num" id="t-duration">۰ سال، ۰ ماه، ۰ هفته، ۰ روز، ۰ ساعت، ۰ دقیقه، ۰ ثانیه</span>
+          <span class="timer-label">از 8 شهریور 1401 تا الان</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SECTION 3 — POSTCARDS
+     ══════════════════════════════════════════════════ -->
+<section id="memories">
+  <div class="section-inner">
+    <div class="reveal">
+      <h2 class="section-title">💌 چندتا متن عاشقانه برای خوشگلترین دوست دختر دنیا</h2>
+      <p class="section-subtitle">و صد البته سکسی ترین دوست دختر دنیا</p>
+      <div class="divider"></div>
+    </div>
+    <div class="tilt-grid reveal">
+      <!-- Card 1 -->
+      <div class="tilt-card">
+        <div class="tilt-card-bg">
+          <span class="tilt-card-emoji">🎀</span>
+          <div class="tilt-card-title">عاشقتم</div>
+        </div>
+        <div class="tilt-glare"></div>
+      </div>
+      <!-- Card 2 -->
+      <div class="tilt-card">
+        <div class="tilt-card-bg">
+          <span class="tilt-card-emoji">💕</span>
+          <div class="tilt-card-title">بهترین اتفاق زندگیمی</div>
+        </div>
+        <div class="tilt-glare"></div>
+      </div>
+      <!-- Card 3 -->
+      <div class="tilt-card">
+        <div class="tilt-card-bg">
+          <span class="tilt-card-emoji">🌹</span>
+          <div class="tilt-card-title">هر روز بیشتر از دیروز</div>
+        </div>
+        <div class="tilt-glare"></div>
+      </div>
+      <!-- Card 4 -->
+      <div class="tilt-card">
+        <div class="tilt-card-bg">
+          <span class="tilt-card-emoji">🧸</span>
+          <div class="tilt-card-title">قول میدم جبران کنم بذار رو تخت بخوابم توروخدا</div>
+        </div>
+        <div class="tilt-glare"></div>
+      </div>
+      <!-- Card 5 -->
+      <div class="tilt-card">
+        <div class="tilt-card-bg">
+          <span class="tilt-card-emoji">🌙</span>
+          <div class="tilt-card-title">کره خر خودم باش و بمون</div>
+        </div>
+        <div class="tilt-glare"></div>
+      </div>
+      <!-- Card 6 -->
+      <div class="tilt-card">
+        <div class="tilt-card-bg">
+          <span class="tilt-card-emoji">🫂</span>
+          <div class="tilt-card-title">47 فاکینگ ماه!</div>
+        </div>
+        <div class="tilt-glare"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SECTION 4 — HEART RAIN
+     ══════════════════════════════════════════════════ -->
+<section id="heart-section">
+  <div class="section-inner">
+    <div class="reveal">
+      <h2 class="section-title">💘 بارون قلب</h2>
+      <p class="section-subtitle">این دکمه رو بزن و ببین عشقم چقدر بی‌نهایته!</p>
+      <div class="divider"></div>
+    </div>
+    <button class="heart-btn reveal" id="heartBtn" onclick="spawnHearts()">
+      <span>💌</span>
+      <span>قلب برای قلبم!</span>
+    </button>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SECTION 5 — QUIZ
+     ══════════════════════════════════════════════════ -->
+<section id="quiz">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="quiz-box glass-card">
+        <span class="quiz-emoji">🥺</span>
+        <div class="quiz-question">منو بخشیدی مدی؟</div>
+        <p class="section-subtitle" style="margin-bottom:30px">فقط جواب درست رو انتخاب کن… 😉</p>
+        <div class="quiz-buttons" id="quizButtons">
+          <button class="quiz-yes" id="quizYes" onclick="forgiveYes()">
+            آره 💖
+          </button>
+          <button class="quiz-no" id="quizNo" onmouseenter="shrinkNo()" onclick="shrinkNo()">
+            نخیرشم 😤
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════════════ -->
+<footer>
+  <div class="heart-line">💖 🌹 💖 🌹 💖</div>
+  <p>ساخته‌شده با عشق بی‌نهایت توسط <strong>آرین</strong> برای <strong>مدی</strong></p>
+  <p style="margin-top:6px;opacity:.6;font-size:.8rem">۴۷ ماه و تا ابد… 💕</p>
+</footer>
+
+<!-- ══════════════════════════════════════════════════
+     SUCCESS OVERLAY (hidden by default)
+     ══════════════════════════════════════════════════ -->
+<div id="success-overlay">
+  <div class="success-content">
+    <span class="success-emoji">🎉💖🎉</span>
+    <h2 class="success-title">می‌دونستم مهربون‌ترین مدی دنیایی! 🥰✨</h2>
+    <p class="success-subtitle">
+      ممنونم که بخشیدیم<br>
+      قول میدم ماه بعد کمتر از 3 روز طول بکشه :)<br>
+      دوستت دارم بی‌نهایت 🌹
+    </p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     JAVASCRIPT
+     ═══════════════════════════════════════════════ -->
+<script src="js/main.js"></script>
+</body>
+</html>
